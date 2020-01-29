@@ -21,4 +21,8 @@ class Dog
       puts dog.name
     }
   end
+
+  def save
+    @@all.push(self)
+  end
 end
